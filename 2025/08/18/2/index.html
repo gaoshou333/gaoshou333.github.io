@@ -3,7 +3,7 @@
 <html lang="zh">
 <head>
     <meta charset="utf-8" />
-    <title> | 糕手の秘密基地</title>
+    <title>搭建博客 | 糕手の秘密基地</title>
     <meta name="author" content="糕手" />
     <meta name="description" content="不知道写什么没睡醒啊QAQ" />
     <meta name="keywords" content="" />
@@ -37,6 +37,10 @@
 
 
 <script src="/js/lib/preview.js"></script>
+
+
+
+
 
 
 
@@ -150,14 +154,20 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div id="archives">
-    
-    <div class="categories-tags">
+            <div class="article">
+    <div>
+        <h1>搭建博客</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2025/8/18
+        </span>
         
-        
-        
-        <span>
-            <a href="/categories/%E6%90%AD%E5%BB%BA/" style="background: #00a596">
+        <span class="category">
+            <a href="/categories/%E6%90%AD%E5%BB%BA/">
                 <span class="icon">
                     <i class="fa-solid fa-bookmark fa-fw"></i>
                 </span>
@@ -166,7 +176,59 @@
         </span>
         
         
+        <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
+            
+            
+            <span class="tag">
+                
+                <a href="/tags/github/" style="color: #03a9f4">
+                    github
+                </a>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/blog/" style="color: #ffa2c4">
+                    blog
+                </a>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/%E6%90%AD%E5%BB%BA/" style="color: #00bcd4">
+                    搭建
+                </a>
+            </span>
+            
+        </span>
+        
     </div>
+    
+    <div class="content" v-pre>
+        <h1 id="用什么搭建的？"><a href="#用什么搭建的？" class="headerlink" title="用什么搭建的？  "></a>用什么搭建的？  <br></h1><span id="more"></span>
+
+<p>使用hexo搭建+github托管运行  <br></p>
+<h1 id="为什么要用hexo？"><a href="#为什么要用hexo？" class="headerlink" title="为什么要用hexo？  "></a>为什么要用hexo？  <br></h1><p>因为我不会前端开发，我纯菜🤓  <br></p>
+<h1 id="如何搭建？"><a href="#如何搭建？" class="headerlink" title="如何搭建？ "></a>如何搭建？ <br></h1><p>详细步骤可以参考本主题的成品博客中的文章，里面有详细的教程，也可以到hexo主题的官网中选择喜欢的主题进行搭建  <br></p>
+<p><a target="_blank" rel="noopener" href="https://argvchs.github.io/" title="点击跳转">ParticleX主题成品博客</a>   <br></p>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/themes/" title="hexo主题的官方网站">hexo主题官网</a>  <br></p>
+<h1 id="为什么网站进入这么慢？"><a href="#为什么网站进入这么慢？" class="headerlink" title="为什么网站进入这么慢？  "></a>为什么网站进入这么慢？  <br></h1><p>因为我没钱买国内服务器所以是放到github上托管的😥，可以托管到Netlify、Vercel、cloudflare上加快访问速度，但是我个人不建议托管到Vercel  <br></p>
+<h1 id="感觉很难？"><a href="#感觉很难？" class="headerlink" title="感觉很难？  "></a>感觉很难？  <br></h1><p>那你别建了，一起睡觉吧😴😴😴</p>
+
+    </div>
+    
+    
+    
+    
+    <div id="comment">
+        <div id="giscus-container" class="giscus"></div>
+    </div>
+    
+    
+    
     
 </div>
 
@@ -198,6 +260,29 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+<script
+    src="https://giscus.app/client.js"
+    data-repo="gaoshou333/gaoshou333.github.io"
+    data-repo-id="R_kgDOPW8xyg"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOPW8xys4Ctsdi"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin
+    async
+></script>
+
+
+
+
+
     
 </body>
 </html>
